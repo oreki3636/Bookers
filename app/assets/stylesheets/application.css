@@ -7,11 +7,11 @@ body{
   margin: 33px;
 }
 
-#notice{
+.notice{
   color: green;
 }
 
-.p{
+p{
   display: block;
   margin-block-start: 1em;
   margin-blocl-end: 1em;
@@ -19,7 +19,7 @@ body{
   margin-inline-end:0px
 }
 
-.p,ol,ul,td{
+p,ol,ul,td{
   font-family: verdana,arial,helvetica,sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -32,6 +32,10 @@ a{
 
 a:visited{
   color: #666;
+}
+
+.field{
+  margin-bottom: 10px;
 }
 
 
